@@ -27,4 +27,3 @@ def handle_message(message):
         bot.send_message(message.chat.id, "Будь ласка, виберіть опцію з меню.")
 
 bot.polling(none_stop=True)
-
